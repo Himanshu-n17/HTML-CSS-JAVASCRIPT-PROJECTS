@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(144, 195, 200);
+    margin: 1rem;
+}
+.class-container{
+    background-color: #ebeae9;
+}
+html{
+font-family: "Open Sans", sans-serif;
+}
+/* NAvigation Start */
+nav{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+ul{
+    margin-left: 5rem;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+div.burger{
+    margin-right: 5rem;
+    cursor: pointer;
+}
+div.burger span{
+    height: 4px;
+    border: 2px solid black;
+    margin: 4px;
+    background: black;
+}
+/* Navigation End */
+
+/* HEader Start*/
+header{
+    margin: 6rem;
+    font-weight: 600;
+}
+.main-headings{
+    width: 50%;
+    margin-left: 50px;
+    font-size: 3rem;
+}
+.primary-contanier{
+    width: 40%;
+    margin-top: 3rem;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.bg-gray{
+    background-color: grey;
+    color: wheat;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+/* Header End*/
+
+/* Main Start */
+
+main{
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+img.img{
+width: 40%;
+margin: 10px;
+}
+/* Main End */
+
+/* Section Three Start */
+.sec-3{
+    margin-left: 3 rem ;
+}
+.sec-3.primary-contanier{
+    margin-bottom: 10rem;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3 h1{
+    font-size: 2rem;
+    color: rgb(97,97,97);
+}
+.sec-3 img{
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+}
+/* Section 3 End */
+
+/* Footer Start  */
+footer{
+    margin-top: 10rem;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(144, 195, 200);
+}
+footer .container1 h1{
+    font-size: 4rem;
+    font-family: "Open Sans, sans-serif";
+    margin-bottom: 20px;
+}
+footer .container p {
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+footer .about-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+footer .about-company .container1 {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.about-company .container1 h1 {
+    margin-bottom: 50px;
+}
+.about-company .container1 p {
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+/* PROJECT END */
+/* RESPONSIVENESS */
+@media screen and (max-width: 740px) {
+    header .main-headings {
+        width: 100%;
+    }
+    header.primary-contanier {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .sec-3 .main-headings {
+        width: 100%;
+    }
+    .sec-3 .primary-contanier {
+        width: 100%;
+        font-size: 1.5rem
+    }
+    .sec-3 img{
+        margin: 0;
+    }
+}
